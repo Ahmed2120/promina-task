@@ -164,8 +164,8 @@ class _GalleryPageState extends State<GalleryPage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              PickImageWidget(title: 'GALLERY', function: ()=>GalleryService.pickImage(context).then((value) => setState(() {})),),
-              PickImageWidget(title: 'CAMERA', function: ()=>GalleryService.pickImage(context, isByCamera: true).then((value) => setState(() {})), isByCamera: true,),
+              PickImageWidget(title: 'GALLERY', function: ()=>GalleryService.pickImage(context).then((value) => getImages()),),
+              PickImageWidget(title: 'CAMERA', function: ()=>GalleryService.pickImage(context, isByCamera: true).then((value) => getImages()), isByCamera: true,),
             ],
           ),
         ),

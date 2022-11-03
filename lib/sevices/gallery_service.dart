@@ -30,7 +30,6 @@ class GalleryService{
     final response = await dio.post(
         'https://technichal.prominaagency.com/api/upload',
         data: formData);
-    Provider.of<GalleryProvider>(context, listen: false).getImages();
   }
 
   static Future<void> getGallery(context) async {
@@ -47,6 +46,5 @@ class GalleryService{
       print(jsonResponse['data']);
       print(jsonResponse['data']['images']);
     }
-    // print(jsonResponse['results']);
   }
 }
