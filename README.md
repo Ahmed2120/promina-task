@@ -1,6 +1,8 @@
 # promina_task
 
-A new Flutter project.
+
+![XRecorder_03112022_154851_KirVFF 00_00_00-00_00_30](https://user-images.githubusercontent.com/67471054/199740365-b1366550-baaa-4ec8-9227-25024835f7b7.gif)
+
 
 ## Getting Started
 
